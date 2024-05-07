@@ -7,15 +7,15 @@ import java.util.Optional;
 
 public interface Dao<T> {
     
-    List<T> toList(String text);
+    List<T> lists(String text);
     
     boolean insert(T obj);
     
     boolean update(T obj);
     
-    Optional<T> deactivate(int id);
+    boolean deactivate(int id);
     
-    Optional<T> activate(int id);
+    boolean activate(int id);
     
      int total();
     

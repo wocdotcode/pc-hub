@@ -8,7 +8,7 @@ package main;
  *
  * @author subzer0
  */
-public class PCHUB {
+public class Main {
 
     /**
      * @param args the command line arguments
