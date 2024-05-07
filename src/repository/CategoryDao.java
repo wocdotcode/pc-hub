@@ -67,11 +67,7 @@ public class CategoryDao extends AbstractDao implements Dao<Category> {
                  resp = true;
              }
             
-//            try(ResultSet genKeys = prepStmt.getGeneratedKeys()){
-//                if (genKeys.next()) {
-//                    category.setId(genKeys.getInt(1));
-//                }
-//            }
+
             
         }catch(SQLException sqe){
             JOptionPane.showMessageDialog(null, sqe.getMessage());
